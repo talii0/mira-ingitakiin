@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(240 240 240);
+}
+.towpa2 img{
+    width: 100%;
+}
+.img{
+    width: 100%;
+}
+
+.towpa{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    height: 70px;
+    padding-top: 7px;
+    margin-bottom: 50px;
+}
+.top img{
+    justify-self: center;
+    align-self: center;
+}
+.p1{
+    font-size: 1.5em !important;
+    margin-bottom: 30px;
+}
+.kolch{
+    background-color: white;
+   width: 100%;
+    padding-top: 40px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    height: 90vh;
+}
+.pp{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.kolch form{
+    margin:0 40px;
+}
+.dni{
+    height: 40px;
+    -webkit-box-shadow: inset 0 3px 2px -2px #d5d5d5;
+    box-shadow: inset 0 3px 2px -2px #d5d5d5;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 7px;
+    margin-bottom: 19px;
+    outline: none;
+    font-size: 1rem;
+}
+.radio{
+    width: 100%;
+    
+}
+
+form .dni{
+    width: 100%;
+}
+
+.dat{
+    display: flex;
+    box-shadow: inset 0 3px 2px -2px #d5d5d5;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.dat input{
+    width: 100%;
+    height: 38px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+input:focus{
+    outline:0;-webkit-box-shadow:0 0 0.125em 0.125em #9fcaea, 0 0.125em 0.125em 0 #d9d9d9 inset !important;box-shadow:0 0 0.125em 0.125em #9fcaea, 0 0.125em 0.125em 0 #d9d9d9 inset !important;
+        border:0.0625em solid #559bd1 !important
+}
+.dat div{
+    position: relative;
+    width: 33.33%;
+   
+}
+.dat div:nth-child(1) input{
+    border-radius: 4px 0 0 4px;
+    
+}
+.dat div:nth-child(2) input{
+    border-radius: 0;
+}
+.dat div:nth-child(3) input{
+    border-radius: 0 4px 4px 0;
+}
+.dat div:nth-child(1):after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 1px;
+    height: 25px;
+    background-color: #A8A8A8;
+    z-index: 99999;
+}
+.dat div:nth-child(2):after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 1px;
+    height: 25px;
+    background-color: #A8A8A8;
+    z-index: 99999;
+}
+
+button{
+    height: 44px;
+    background-color: #FF6200;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 15px;
+    border: 2px solid #FF6200;
+    border-radius: 10px;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.svg-inline--fa{
+    color: #ff6200;
+    margin-right: 5px;
+    width: .625em;
+    margin-left: 40px;
+}
+.pp2{
+    margin-top: 25px;
+}
+
+
+
+
+/*  */
+.lik p{
+    color: black;
+}
+
+/* form starting stylings ------------------------------- */
+.group { 
+    position:relative; 
+    margin-bottom:15px; 
+  }
+    .bik input {
+    font-size:14px;
+    padding:10px 10px 10px 12px;
+    display:block;
+    width:100%;
+    border:none;
+    border-bottom:1.7px solid #dfdfdf;
+    
+    padding-top: 15px;padding-bottom: 12px;
+    
+  }
+input::placeholder{
+    color: rgb(177, 177, 177);
+    font-weight: 600;
+}
+
+
+/* cc */
+
+
+.cici{
+    background-color: white;
+    padding: 20px 40px;
+    height: 90vh;
+}
+
+.cici input{
+    height: 40px;
+    -webkit-box-shadow: inset 0 3px 2px -2px #d5d5d5;
+    box-shadow: inset 0 3px 2px -2px #d5d5d5;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 7px;
+    margin-bottom: 19px;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+}
+.cici .pp3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cici .fa-chevron-right{
+    margin-left: -0px;
+}
